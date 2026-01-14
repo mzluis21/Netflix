@@ -1,0 +1,64 @@
+@media (max-width: 767px) {
+    .image img{
+        width: 50%;
+    }
+
+    .bnt-entrar .Entrar{
+        padding: 0.7rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .promocion {
+        width: 70%;
+        max-width: 250%;
+    }
+
+    .promocion h3{
+        padding: 0.4rem 0;
+    }
+
+    .promocion-btn button {
+        margin: -5px;
+    }
+
+    .perg-fre {
+      padding: 15px;
+    }
+
+    .sel-perg span {
+      top: 10px;
+    }
+
+    .lets-go .button{
+        margin: 0;
+    }
+
+    .lets-go p{
+       margin-left: 0;
+    }
+
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .promocion {
+        width: 80%;
+        max-width: 300%;
+    }
+
+    .promocion h3{
+        padding: 0.4rem 0;
+    }
+    
+    .lets-go .button{
+        margin: 0;
+    }
+
+    .lets-go p{
+       margin-left: 0;
+    }
+
+}
+
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix-login</title>
+    <link rel="stylesheet" href="css/css/login.css">
+    <link rel="shortcut icon" href="img/nficon2016.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="image">
+            <a href="index.html"><img src="img/Netflix_Logo_PMS.png" alt="logo-netflix"></a>
+        </div>
+    </header>
+
+    <div id="erro" class="mensagem">
+      <span id="texto"></span>
+     
+    </div>
+
+
+    <!-- Container principal da tela de login -->
+    <div class="login-container">
+
+      <!-- Formulário de login -->
+      <!-- id="loginForm" será usado no JavaScript -->
+      <form class="login-box" id="loginForm">
+
+        <!-- Título da página -->
+        <h1>Entrar</h1>
+
+        <!-- campo de email  -->
+        <input type="email"id="email"placeholder="Email ou número de telefone"required />
+
+        <!-- campo de senha  -->
+        <input type="password"id="senha"placeholder="Senha"required/>
+
+        
+
+        <!-- Botão de envio do formulário -->
+        <!-- type="submit" dispara o evento submit -->
+        <button type="submit">Entrar</button>
+
+        <!-- Opções extras -->
+        <div class="options">
+          <a href="#">Precisa de ajuda?</a>
+        </div>
+
+        <!-- Área de cadastro -->
+        <div class="signup">
+          <p>Novo por aqui? <a href="#">Assine agora</a>.</p>
+
+          <small>
+            Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.
+            <a href="#">Saiba mais.</a>
+          </small>
+        </div>
+
+      </form>
+    </div>
+
+
+      <!-- Rodapé Netflix Style -->
+    <footer class="netflix-footer">
+      <div class="footer-container">
+          <p class="footer-title">Dúvidas? Ligue <a href="#">0800 591 8942</a></p>
+
+          <ul class="footer-links">
+            <li><a href="#">Perguntas frequentes</a></li>
+            <li><a href="#">Central de Ajuda</a></li>
+            <li><a href="#">Conta</a></li>
+            <li><a href="#">Media Center</a></li>
+            <li><a href="#">Relações com investidores</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Resgatar cartão pré-pago</a></li>
+            <li><a href="#">Comprar cartão pré-pago</a></li>
+            <li><a href="#">Formas de assistir</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Preferências de cookies</a></li>
+            <li><a href="#">Informações corporativas</a></li>
+            <li><a href="#">Entre em contato</a></li>
+          </ul>
+
+          <div class="footer-language">
+            <select>
+                <option>Português</option>
+                <option>English</option>
+            </select>
+        </div>
+
+        <p class="footer-copy">© 2025 Netflix, Inc.</p>
+    </div>
+    </footer>
+
+
+   <script src="js/login.js"></script>
+
+</body>
+</html>
